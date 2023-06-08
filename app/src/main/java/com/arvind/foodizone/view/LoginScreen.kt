@@ -52,14 +52,14 @@ fun LoginScreen(navController: NavController) {
                         verticalAlignment = Alignment.CenterVertically,
                         content = {
                             Image(
-                                painter = painterResource(id = R.drawable.indianflag),
+                                painter = painterResource(id = R.drawable.colombia),
                                 contentDescription = "",
                                 modifier = Modifier
                                     .size(24.dp, 24.dp)
                                     .padding(start = 10.dp)
                             )
                             Text(
-                                text = "+91",
+                                text = "+57",
                                 color = colorBlack,
                                 modifier = Modifier.padding(start = 10.dp)
                             )
@@ -89,7 +89,7 @@ fun LoginScreen(navController: NavController) {
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone),
                 label = {
                     Text(
-                        text = "Your Phone Number",
+                        text = "Su número de teléfono",
                         modifier = Modifier.padding(start = 10.dp)
                     )
                 },
@@ -125,7 +125,7 @@ fun LoginScreen(navController: NavController) {
                 ),
                 modifier = Modifier.fillMaxWidth(),
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-                label = { Text(text = "Password") },
+                label = { Text(text = "Contraseña") },
                 shape = RoundedCornerShape(24.dp),
                 onValueChange = {
                     userpassword = it
@@ -145,7 +145,7 @@ fun LoginScreen(navController: NavController) {
                 shape = RoundedCornerShape(24.dp)
             ) {
                 Text(
-                    text = "Login to account \uD83D\uDE0B",
+                    text = "Iniciar sesión en la cuenta \uD83D\uDE0B",
                     color = colorWhite,
                     style = MaterialTheme.typography.button,
                     modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)
@@ -165,7 +165,7 @@ fun LoginScreen(navController: NavController) {
                 shape = RoundedCornerShape(24.dp)
             ) {
                 Text(
-                    text = "Create new account",
+                    text = "Crear una nueva cuenta",
                     color = colorWhite,
                     style = MaterialTheme.typography.button,
                     modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)
@@ -181,7 +181,7 @@ fun LoginScreen(navController: NavController) {
             ) {
                 TextButton(onClick = { }) {
                     Text(
-                        text = "Forgot Password ?",
+                        text = "Has olvidado tu contraseña ?",
                         color = colorWhite,
                         style = MaterialTheme.typography.button,
                     )

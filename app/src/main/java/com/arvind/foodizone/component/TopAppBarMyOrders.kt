@@ -40,7 +40,7 @@ fun TopAppBarMyOrders() {
         }
 
         Text(
-            text = "My Orders \uD83D\uDE0B",
+            text = "Mi Orden \uD83D\uDE0B",
             color = colorBlack,
             style = MaterialTheme.typography.button,
             modifier = Modifier.padding(start = 100.dp)

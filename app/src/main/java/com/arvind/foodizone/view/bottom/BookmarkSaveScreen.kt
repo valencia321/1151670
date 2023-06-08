@@ -36,7 +36,7 @@ fun BookmarkSaveScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Bookmark",
+                text = "Marcador",
                 style = MaterialTheme.typography.h6,
                 color = colorBlack
             )

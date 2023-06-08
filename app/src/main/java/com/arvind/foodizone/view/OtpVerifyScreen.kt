@@ -57,15 +57,15 @@ fun OtpVerifyScreen(navController: NavController) {
             Spacer(modifier = Modifier.height(40.dp))
 
             Text(
-                text = "Verification code",
+                text = "Código de verificación",
                 color = colorWhite,
                 style = MaterialTheme.typography.h6,
                 fontWeight = FontWeight.Bold
             )
             Text(
                 text = "\n" +
-                        "We sent you a verification code to your\n" +
-                        "mobile number\n",
+                        "Te enviamos un código de verificación a tu\n" +
+                        "Número de teléfono móvil\n",
                 color = colorGray,
                 style = MaterialTheme.typography.button,
             )
@@ -105,7 +105,7 @@ fun OtpVerifyScreen(navController: NavController) {
                 shape = RoundedCornerShape(24.dp)
             ) {
                 Text(
-                    text = "Submit \uD83D\uDE0B",
+                    text = "Enviar \uD83D\uDE0B",
                     color = colorWhite,
                     style = MaterialTheme.typography.button,
                     modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)
@@ -114,7 +114,7 @@ fun OtpVerifyScreen(navController: NavController) {
 
             TextButton(onClick = { }) {
                 Text(
-                    text = "Resend Verification code",
+                    text = "Vuelva a enviar el código de verificación",
                     color = colorWhite,
                     fontSize = 14.sp,
                 )

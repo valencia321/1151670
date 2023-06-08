@@ -36,7 +36,7 @@ fun SearchScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Search",
+                text = "Buscar",
                 style = MaterialTheme.typography.h6,
                 color = colorBlack
             )

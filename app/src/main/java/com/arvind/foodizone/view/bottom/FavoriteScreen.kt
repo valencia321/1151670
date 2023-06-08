@@ -36,7 +36,7 @@ fun FavoriteScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Favorite",
+                text = "Favorito",
                 style = MaterialTheme.typography.h6,
                 color = colorBlack
             )

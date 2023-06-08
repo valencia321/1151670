@@ -37,7 +37,7 @@ fun ProfileScreen(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Profile",
+                text = "Perfil",
                 style = MaterialTheme.typography.h6,
                 color = colorBlack
             )

@@ -36,7 +36,7 @@ fun TopAppBarMap() {
         }
 
         Text(
-            text = "Track Order",
+            text = "Orden de pista",
             color = colorBlack,
             style = MaterialTheme.typography.button
         )

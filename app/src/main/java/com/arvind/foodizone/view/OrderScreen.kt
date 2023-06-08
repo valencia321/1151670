@@ -75,7 +75,7 @@ fun OrderCalculateData() {
                 shape = RoundedCornerShape(24.dp)
             ) {
                 Text(
-                    text = "Apply Coupon \uD83E\uDD11",
+                    text = "Aplicar cupón \uD83E\uDD11",
                     color = colorWhite,
                     style = MaterialTheme.typography.button,
                     modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)
@@ -90,12 +90,12 @@ fun OrderCalculateData() {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = "Item total",
+                    text = "Total",
                     color = Color.Gray,
                     style = MaterialTheme.typography.button
                 )
                 Text(
-                    text = "$14.95",
+                    text = "$14.950",
                     color = colorBlack,
                     style = MaterialTheme.typography.button,
                     fontWeight = FontWeight.Bold
@@ -109,12 +109,12 @@ fun OrderCalculateData() {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = "Delivery fees",
+                    text = "Cargos por envío",
                     color = Color.Gray,
                     style = MaterialTheme.typography.button
                 )
                 Text(
-                    text = "$2.25",
+                    text = "$12.250",
                     color = colorBlack,
                     style = MaterialTheme.typography.button,
                     fontWeight = FontWeight.Bold
@@ -128,12 +128,12 @@ fun OrderCalculateData() {
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Text(
-                    text = "Tax",
+                    text = "Impuesto",
                     color = Color.Gray,
                     style = MaterialTheme.typography.button
                 )
                 Text(
-                    text = "$2.95",
+                    text = "$12.950",
                     color = colorBlack,
                     style = MaterialTheme.typography.button,
                     fontWeight = FontWeight.Bold
@@ -152,7 +152,7 @@ fun OrderCalculateData() {
                     style = MaterialTheme.typography.button
                 )
                 Text(
-                    text = "$20.15",
+                    text = "$40.150",
                     color = colorRedDark,
                     style = MaterialTheme.typography.h6,
                     fontWeight = FontWeight.Bold
@@ -179,7 +179,7 @@ fun OrderCalculateData() {
                 shape = RoundedCornerShape(24.dp)
             ) {
                 Text(
-                    text = "Confirm order \uD83D\uDE0B",
+                    text = "Confirmar pedido \uD83D\uDE0B",
                     color = colorWhite,
                     style = MaterialTheme.typography.button,
                     modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)

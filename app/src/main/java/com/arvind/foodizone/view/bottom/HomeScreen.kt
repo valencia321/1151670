@@ -71,8 +71,8 @@ fun Title() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "What would you like to\n" +
-                    "eat today \uD83D\uDE0B",
+            text = "Que te gustaría\n" +
+                    "!COMER HOY! \uD83D\uDE0B",
             color = colorBlack,
             style = MaterialTheme.typography.h6
         )
@@ -124,7 +124,7 @@ fun Header() {
                 onValueChange = { usersearch = it },
                 placeholder = {
                     Text(
-                        text = "Search food",
+                        text = "Buscar Comida",
                         color = Color.Gray
                     )
                 },
@@ -160,7 +160,7 @@ fun Header() {
 @Composable
 fun CategorySection() {
     Column() {
-        val itemList = listOf("Burgers", "Pizza", "Healthy")
+        val itemList = listOf("Hamburguesas", "Pizza", "Saludable")
         val categoryImagesList = listOf<Int>(
             R.drawable.burger2,
             R.drawable.pizza,
@@ -172,7 +172,7 @@ fun CategorySection() {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Text(
-                text = "Categories",
+                text = "Categorías",
                 color = colorBlack,
                 style = MaterialTheme.typography.h6
             )
@@ -181,7 +181,7 @@ fun CategorySection() {
                 }
             ) {
                 Text(
-                    text = "See all",
+                    text = "Ver todo",
                     color = colorRedDark
                 )
                 Icon(
@@ -250,13 +250,13 @@ fun PopularSection() {
             R.drawable.burger,
             R.drawable.burger2,
         )
-        val popularTitleNameList = listOf("Chicken Burger", "Beef Burger")
-        val popularSubTitleItemList = listOf("Burger King", "Shake Shack")
-        val popularPriceItemList = listOf("4.25", "3.45")
+        val popularTitleNameList = listOf("Hamburguesa de pollo", "Hamburguesa de carne")
+        val popularSubTitleItemList = listOf("rey de las hamburguesas", "Batidos")
+        val popularPriceItemList = listOf("14.250", "13.450")
         val popularPriceTagItemList = listOf("$ ", "$ ")
 
         Text(
-            text = "Popular now \uD83D\uDD25",
+            text = "Popular ahora \uD83D\uDD25",
             style = MaterialTheme.typography.h6,
             color = colorBlack
         )
@@ -368,9 +368,9 @@ fun OfferDealSection() {
             R.drawable.burger,
             R.drawable.burger2,
         )
-        val offerDealTitleNameList = listOf("Chicken Burger", "Beef Burger")
-        val offerDealSubTitleItemList = listOf("Burger King", "Shake Shack")
-        val offerDealPriceItemList = listOf("1.25", "1.45")
+        val offerDealTitleNameList = listOf("Hamburguesa de pollo", "Hamburguesa de carne")
+        val offerDealSubTitleItemList = listOf("Rey de las Hamburguesas", "Batidos")
+        val offerDealPriceItemList = listOf("15.000", "14.500")
         val offerDealPriceTagItemList = listOf("$ ", "$ ")
 
         Text(

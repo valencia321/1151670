@@ -41,7 +41,7 @@ fun WelcomeScreen(navController: NavController) {
                     .fillMaxHeight()
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.welcome),
+                    painter = painterResource(id = R.drawable.bienvenido),
                     contentDescription = "Welcome Image",
                     modifier = Modifier
                         .fillMaxWidth()
@@ -63,24 +63,24 @@ fun WelcomeScreen(navController: NavController) {
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Image(
-                        painter = painterResource(id = R.drawable.foodizone_logo),
+                        painter = painterResource(id = R.drawable.logo),
                         contentDescription = "logo",
                         modifier = Modifier.size(100.dp)
                     )
                     Text(
-                        text = "Feeling Hungry ?",
+                        text = "¿Tener hambre?",
                         color = colorBlack,
                         style = MaterialTheme.typography.h6,
                     )
                     Text(
-                        text = "Let’s order right now",
+                        text = "Hagamos el pedido ahora mismo",
                         color = colorBlack,
                         style = MaterialTheme.typography.h6,
                     )
                     Text(
                         text = "\n" +
-                                "The fastest delivery service in the\n" +
-                                "town, start ordering now\n",
+                                "El servicio de entrega más rápido en el\n" +
+                                "ciudad, comience a ordenar ahora\n",
                         color = Color.Gray,
                         style = MaterialTheme.typography.button,
                     )
@@ -101,7 +101,7 @@ fun WelcomeScreen(navController: NavController) {
                         shape = RoundedCornerShape(24.dp)
                     ) {
                         Text(
-                            text = "Let’s order \uD83D\uDE0B",
+                            text = "Ordenemos \uD83D\uDE0B",
                             color = colorWhite,
                             style = MaterialTheme.typography.button,
                             modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)

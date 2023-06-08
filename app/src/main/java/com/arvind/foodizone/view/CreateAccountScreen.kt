@@ -89,14 +89,14 @@ fun CreateAccountScreen(navController: NavController) {
                         verticalAlignment = Alignment.CenterVertically,
                         content = {
                             Image(
-                                painter = painterResource(id = R.drawable.indianflag),
+                                painter = painterResource(id = R.drawable.colombia),
                                 contentDescription = "",
                                 modifier = Modifier
                                     .size(24.dp, 24.dp)
                                     .padding(start = 10.dp)
                             )
                             Text(
-                                text = "+91",
+                                text = "+57",
                                 color = colorBlack,
                                 modifier = Modifier.padding(start = 10.dp)
                             )
@@ -126,7 +126,7 @@ fun CreateAccountScreen(navController: NavController) {
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Phone),
                 label = {
                     Text(
-                        text = "Your Phone Number",
+                        text = "Su número de teléfono",
                         modifier = Modifier.padding(start = 10.dp)
                     )
                 },
@@ -162,7 +162,7 @@ fun CreateAccountScreen(navController: NavController) {
                 ),
                 modifier = Modifier.fillMaxWidth(),
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-                label = { Text(text = "Password") },
+                label = { Text(text = "Contraseña") },
                 shape = RoundedCornerShape(24.dp),
                 onValueChange = {
                     userpassword = it
@@ -181,7 +181,7 @@ fun CreateAccountScreen(navController: NavController) {
                 shape = RoundedCornerShape(24.dp)
             ) {
                 Text(
-                    text = "Create account \uD83D\uDE0B",
+                    text = "Crear una cuenta\n \uD83D\uDE0B",
                     color = colorWhite,
                     style = MaterialTheme.typography.button,
                     modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)
@@ -202,7 +202,7 @@ fun CreateAccountScreen(navController: NavController) {
                 shape = RoundedCornerShape(24.dp)
             ) {
                 Text(
-                    text = "Login to account",
+                    text = "Iniciar sesión en la cuenta",
                     color = colorWhite,
                     style = MaterialTheme.typography.button,
                     modifier = Modifier.padding(top = 8.dp, bottom = 8.dp)
